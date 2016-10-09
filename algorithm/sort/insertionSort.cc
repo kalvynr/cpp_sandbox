@@ -10,7 +10,7 @@ void create(ARRAY1D array, int numItems);
 void print(ARRAY1D array, int numItems);
 void sort(ARRAY1D array, int numItems);
 
-void swap(int &left, int &right)
+inline void swap(int &left, int &right)
 {
     int temp = left;
     left = right;
